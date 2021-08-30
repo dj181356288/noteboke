@@ -55,7 +55,7 @@ git status
 7.提交，并生成上传的注释
 
 ```
-git commit -m "XXXXX"
+git commit -m "XXXXX" 
 
 git commit命令，-m后面输入的是本次提交的说明
 ```
@@ -64,5 +64,7 @@ git commit命令，-m后面输入的是本次提交的说明
 
 ```
 git push origin master git@github.com:dj181356288/notebook.git
+
+命令将本地的 master 分支推送到 origin 主机的 master 分支。
 ```
 
