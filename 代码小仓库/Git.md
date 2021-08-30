@@ -36,28 +36,33 @@ ssh-keygen -t rsa -f  D:\Github  -C "test key"
 git init  
 ```
 
-5.将笔记本文件夹下所有文件进行跟踪，提交所有变化
+5.提交所有变化（一旦修改status就会改变）
 
 ```
 git add -A  
 
 其他命令：
 git add -u  提交被修改(modified)和被删除(deleted)文件，不包括新文件(new)
-
-git add .  提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件
+git add .  提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件6.
 ```
 
-6.生成一个本地库版本
+6.查看是否已经追踪
 
 ```
-git commit -m "hub"
-
-git commit命令，-m后面输入的是本次提交的说明，可以输入任意内容，当然最好是有意义的，这样你就能从历史记录里方便地找到改动记录。
+git status
 ```
 
-7.将本地库版本推送到 github 中
+7.提交，并生成上传的注释
 
 ```
-git push  git@github.com/dj181356288/notebook.git 
+git commit -m "XXXXX"
+
+git commit命令，-m后面输入的是本次提交的说明
+```
+
+8.将本地库版本推送到 github 中
+
+```
+git push  git@github.com/dj181356288/notebook.git master
 ```
 
