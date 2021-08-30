@@ -63,6 +63,6 @@ git commit命令，-m后面输入的是本次提交的说明
 8.将本地库版本推送到 github 中
 
 ```
-git push  git@github.com/dj181356288/notebook.git master
+git push git push origin master git@github.com:dj181356288/notebook.git
 ```
 
